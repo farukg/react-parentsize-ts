@@ -1,13 +1,22 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
-    "jsx": "react",
-    "strict": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "esnext",
+    "jsx": "preserve",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true
   },
-  "exclude": [
-    "node_modules"
+  "include": [
+    "src"
   ]
 }
