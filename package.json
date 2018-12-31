@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/react": "^16.7.18",
+    "lodash": "^4.17.11",
+    "react": "^16.7.0",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "name": "react-parentsize-ts",
+  "description": "Rewrite in TypeScript ParentSize component of vx library",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrieleLippi/react-parentsize-ts.git"
+  },
+  "keywords": [
+    "parent",
+    "resize",
+    "observer"
+  ],
+  "author": "Gabriele Lippi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrieleLippi/react-parentsize-ts/issues"
+  },
+  "homepage": "https://github.com/GabrieleLippi/react-parentsize-ts#readme"
+}
