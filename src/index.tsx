@@ -1,6 +1,6 @@
-import React from 'react';
-import debounce from 'lodash/debounce';
-import ResizeObserver from 'resize-observer-polyfill';
+import * as React from 'react';
+import { debounce } from 'lodash';
+const ResizeObserver = require('resize-observer-polyfill');
 
 interface Props {
   className: string
@@ -24,7 +24,7 @@ export class ParentSize extends React.Component<Partial<Props>, State> {
   ro:any
 
   componentDidMount() {
-    this.ro = new ResizeObserver((entries, observer) => {
+    this.ro = new ResizeObserver((entries: any, observer: any) => {
       for (const entry of entries) {
         const {
           left, top, width, height,

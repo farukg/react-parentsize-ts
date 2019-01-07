@@ -1,16 +1,25 @@
 {
   "dependencies": {
-    "@types/lodash": "^4.14.119",
-    "@types/react": "^16.7.18",
-    "lodash": "^4.17.11",
     "react": "^16.7.0",
-    "resize-observer-polyfill": "^1.5.1"
+    "react-dom": "^16.7.0",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "lodash": "^4.17.11",
+    "resize-observer-polyfill": "^1.5.1",
+    "webpack": "^4.28.3"
   },
   "name": "react-parentsize-ts",
   "description": "Rewrite in TypeScript ParentSize component of vx library",
   "version": "1.0.0",
-  "main": "build/index.js",
-  "devDependencies": {},
+  "main": "dist/bundle.js",
+  "devDependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "webpack-cli": "^3.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
