@@ -11,7 +11,7 @@
   "name": "react-parentsize-ts",
   "description": "Rewrite in TypeScript ParentSize component of vx library",
   "version": "1.0.0",
-  "main": "dist/bundle.js",
+  "main": "dist/index.js",
   "devDependencies": {
     "@types/lodash": "^4.14.119",
     "@types/node": "^10.12.18",
@@ -33,7 +33,7 @@
     "observer"
   ],
   "author": "Gabriele Lippi",
-  "license": "ISC",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/GabrieleLippi/react-parentsize-ts/issues"
   },
