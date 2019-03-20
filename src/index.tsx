@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { debounce } from 'lodash';
-const ResizeObserver = require('resize-observer-polyfill').default;
+import ResizeObserver from 'resize-observer-polyfill';
 
 interface Props {
   className: string
